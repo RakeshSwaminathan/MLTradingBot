@@ -7,12 +7,14 @@ from alpaca.data.historical.news import NewsClient
 from timedelta import Timedelta
 from finbert_utils import estimate_sentiment
 from dotenv import load_dotenv
+from lumibot.brokers import Alpaca
+
 import os
 
 
 ALPACA_CREDS = {
-    "API_KEY": "ALPACA_Key",
-    "API_SECRET": "ALPACA_Secret",
+    "API_KEY": "PK7242QLSUSK4JWH5N7W",
+    "API_SECRET": "IBgE5K46hZnnrcf8c8pPqJ4gJGszNzD8avC5ks2S",
     "PAPER": True
 }
 
